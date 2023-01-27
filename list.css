@@ -1,0 +1,84 @@
+div
+ {
+    height: 800px;
+    width: 100%;
+    color: white;
+    background-color: rgb(17, 14, 14);
+    background-attachment: fixed;
+    
+ }
+ .firstdiv
+ {
+   
+  height: 150px;
+  width: 100%;
+  background-color: black; 
+  background-image: linear-gradient(to right, black , gray);
+  text-align:center;
+}
+ 
+ 
+ li
+ {
+    font-size: 20px;
+ }
+ .listdiv
+ {
+    /* display: none; */
+    height: 350px;
+    width: 30%;
+   
+    float: left;
+ }
+ .searchdiv
+ {
+    height: 300px;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    
+    
+   
+ }
+ #searchbutton
+ {
+   background-color:rgb(94, 94, 40);
+   
+ }
+ .grand
+ {
+   font-size: 60px;
+ }
+ /* }
+    .newdiv
+ {
+   height: 700px;
+   width: 100%;
+    background-image: url(/images/secondfooter.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: black; 
+    background-image: linear-gradient(to right, black , gray); 
+ }   */
+
+
+
+
+/* media query start */
+@media (max-width: 700px) {
+  
+   .firstdiv{
+      text-align: center;
+      width: 100%;
+      height: auto;
+   }
+   .searchdiv
+   {
+      height: auto;
+      width: 100%;
+      text-align: center;
+      
+      
+     
+   }
+}
